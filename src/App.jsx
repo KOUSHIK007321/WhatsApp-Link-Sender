@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa";
 import { MdDeleteOutline } from "react-icons/md";
@@ -43,14 +44,8 @@ function App() {
   };
 
   return (
-    <div className="relative min-h-screen bg-gray-100 overflow-hidden">
-      {/* Background WhatsApp image */}
-      <img
-        src="https://cdn.prod.website-files.com/64ad227a3e66387fc5d89320/661f63dc0220d4817c9abdc5_3d-render-social-media-icon-collection.jpg"
-        alt="WhatsApp Background"
-        className="absolute inset-0 w-full h-full object-cover blur-md opacity-50"
-      />
-
+    <div className="min-h-screen bg-gray-100 overflow-hidden">
+      
       {/* Foreground Card */}
       <motion.div
         initial={{ opacity: 0 }}
