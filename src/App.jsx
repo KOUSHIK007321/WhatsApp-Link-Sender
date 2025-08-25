@@ -63,9 +63,9 @@ function App() {
           <img src="/WhatsApp-link.ico" alt="WhatsApp Icon" className="w-24 h-24" />
         </div>
 
-        <h1 className="text-6xl font-extrabold mb-16 text-gray-800">
+        <h2 className="text-6xl font-extrabold mb-16 text-gray-800">
           WhatsApp Link Sender
-        </h1>
+        </h2>
 
         {/* Form wrapper */}
         <form onSubmit={handleSend}>
